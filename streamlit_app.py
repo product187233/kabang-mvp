@@ -43,7 +43,7 @@ for _, row in results.iterrows():
     if d.get("Perks"):
         st.markdown("Perks: " + ", ".join(d["Perks"]))
 st.markdown(f"_{d.get('Review', '')}_")
-    st.markdown("---")
+st.markdown("---")
 
 # Trade-in
 st.header("💸 Trade-In Estimator")
