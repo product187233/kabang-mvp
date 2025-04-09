@@ -42,7 +42,7 @@ for _, row in results.iterrows():
     st.markdown(f"Color: {row['Color']}")
     if d.get("Perks"):
         st.markdown("Perks: " + ", ".join(d["Perks"]))
-    st.markdown(f"_"{d.get('Review', '')}"_")
+st.markdown(f"_{d.get('Review', '')}_")
     st.markdown("---")
 
 # Trade-in
